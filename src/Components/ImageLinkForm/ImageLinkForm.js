@@ -13,7 +13,7 @@ class ImageLinkForm extends React.Component{
                         <input className='f4 pa2 w-50 center mb2 mt1' type='text' onChange={this.props.onInputChange}/>
                     </div>
                     <div>
-                        <Button variant='success' onClick={this.props.onSubmit}>Detect</Button>
+                        <Button variant='success' onClick={this.props.onImgSubmit}>Detect</Button>
                     </div>
                 </div>
             </div>
